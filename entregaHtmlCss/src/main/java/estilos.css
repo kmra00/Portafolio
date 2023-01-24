@@ -1,0 +1,49 @@
+      body{
+      background:#b87333;
+      }
+      .menuSuperior {
+            background-color: darkkhaki;
+            height: 100px;
+            align-items: center;
+
+
+        }
+
+        .contenedorSuperior {
+            background-color: blue;
+            height: 200px;
+            align-content: center;
+            width: 100%;
+
+        }
+
+
+        aside {
+            background-color: cadetblue;
+            width: 20%;
+            height:400px;
+            float:left;
+        }
+        .contenedorCentral{
+            background-color:red;
+            height:400px;
+            float: right;
+            width: 80%;
+
+        }
+
+
+        h1 {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-align: center;
+        }
+
+        footer{
+          background-color: #f3e5f5;
+          height: 80px; /* height + top/bottom paddding + top/bottom border must add up to footer height */
+          padding: 8px;
+          position: fixed;
+          bottom: 0;
+          width: 100%;
+
+        }
