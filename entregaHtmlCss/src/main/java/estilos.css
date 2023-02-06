@@ -27,12 +27,15 @@
             width: 20%;
             height:400px;
             float:left;
+
         }
         .contenedorCentral{
             background-color:red;
             height:400px;
             float: right;
             width: 80%;
+            display: flex;
+
 
         }
 
@@ -44,7 +47,8 @@
 
         footer{
           background-color: #f3e5f5;
-          height: 80px;
+          height: 10%;
+        /*  height: 80px; */
           padding: 8px;
           position: fixed;
           bottom: 0;
